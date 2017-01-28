@@ -1,5 +1,4 @@
 # Data Structures and Algorithms in Java
-From the book with this same title
 
-## Contents:
-1. [ ] [Java Primer](./chapter1)
+## Links to my Notes:
+1. [ ] [Java Primer](./notes/chapter1)
