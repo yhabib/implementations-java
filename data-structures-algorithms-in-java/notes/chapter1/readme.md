@@ -7,7 +7,7 @@ arguments is different.
 
 ## Data types
 
-8 Primitive Types in Java, if none value are defined Java initilizes default to default>
+8 Primitive(atomic) Types in Java, if none value are defined Java initilizes default to default>
 * boolean -> false
 * char -> null character
 * byte -> 0
@@ -19,10 +19,10 @@ arguments is different.
 
 ## Classes
 Every object is an instance of a class, which serves as the type of the object and as a blueprint:
-* Instance variables or fields, represent the data associated with an object of a class. They have a type, that can be a primitive one
-or any class type(reference type).
+* **Instance variables or fields**, represent the data associated with an object of a class. They have a type, that can be a primitive one
+or any class type(reference type), when assigned to values defines the state of the instance!!!!
 	`[modifiers] type identifier1[=initialValue1], identifier2[=initialValue2]`
-* Methods, can be divided into two types, *accessor* and *update* methods. The first group retrive info without changing any instance variables,
+* **Methods**, can be divided into two types, *accessor* and *update* methods. The first group retrive info without changing any instance variables,
 when the second group can change one or more instances.
 	* Method's name combined with number and types of its parameters is called *signature*, but it does not contain the type of data returned so it
 	is not allowed to have two methods with the same signature to return different types.
@@ -57,7 +57,7 @@ or subclasses form other packages.
 
 ##### The *static*
 It ca be declared for any variable or method of a class. When that happens, its value is associated with
-the class as a whole, rather than wich each individual instance of that class!! 
+the class as a whole, rather than with each individual instance of that class!! 
 * An instance variable can be defined as *static* when we want to store *global* information about its class.
 * When a method of a class is defined as *static*, it means that this method is associated with the class
 itself, and not with a particular instance of the class, thereby we cannot use *dot* notation with it, instead
